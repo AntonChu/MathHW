@@ -1,6 +1,6 @@
-import Math from './math';
+import MathAttack from './math';
 
-export default class Daemon extends Math {
+export default class Daemon extends MathAttack {
   constructor(distance, stoned) {
     super(distance, 100, stoned);
   }

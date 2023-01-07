@@ -1,6 +1,6 @@
-import Math from './math';
+import MathAttack from './math';
 
-export default class Magician extends Math {
+export default class Magician extends MathAttack {
   constructor(distance, stoned) {
     super(distance, 100, stoned);
   }
